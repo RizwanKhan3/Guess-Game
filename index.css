@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(46,45,45);
+}
+.header {
+  display: flex;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header button {
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.section {
+  display: flex;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+.section > h1 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.line {
+  width: 100px;
+  margin: -30px auto;
+  display: flex;
+  height: 60px;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+.line h1 {
+  text-align: center;
+}
+.high-score {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* text-align: center; */
+  height: 2px;
+  background-color: white;
+}
+
+.article {
+  display: flex;
+
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+}
+.check input {
+  width: 100px;
+  padding: 20px;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+.check {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.check button {
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(158, 163, 167);
+}
+
+.show {
+  width: 230px;
+}
